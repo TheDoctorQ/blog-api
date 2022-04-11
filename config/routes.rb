@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   get "/posts/:id" => "posts#show"
   patch "/posts/:id" => "posts#update"
   delete "/posts/:id" => "posts#destroy"
+  
+
 end
