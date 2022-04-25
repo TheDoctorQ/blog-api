@@ -1,4 +1,4 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NDQxODI5NTJ9._W25rTs_7yb6yy0k3sByYbYjz1lRBDcdPXZ8r_O6g60
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NDk5NjAwMDh9.CUu09HPmoCX0IlU14f2FVQnypBZWShpnsYFmtwiIb6U
 
 ### Users create (signup)
 POST http://localhost:3000/users
@@ -29,8 +29,8 @@ Authorization: Bearer {{jwt}}
 Content-Type: application/json
 
 {
-  "title": "Test title",
-  "body": "Test body"
+  "title": "Another test title",
+  "body": "Test body2"
 }
 
 ### Posts show
